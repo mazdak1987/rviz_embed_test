@@ -12,6 +12,23 @@
 #include "rviz_common/window_manager_interface.hpp"
 #include "rviz_common/ros_integration/ros_node_abstraction.hpp"
 
+#include <OgreSceneNode.h>
+#include <OgreSceneManager.h>
+#include <OgreEntity.h>
+#include <QPainter>
+#include <OgreHardwarePixelBuffer.h>
+#include <Overlay/OgreOverlay.h>
+#include <Overlay/OgreOverlayManager.h>
+#include <Overlay/OgreOverlayContainer.h>
+#include <Overlay/OgrePanelOverlayElement.h>
+#include <OgreCamera.h>
+#include <OgreViewport.h>
+#include <OgreMaterial.h>
+#include <OgreTechnique.h>
+#include <OgreTextureManager.h>
+#include <OgreMaterialManager.h>
+#include <QScreen>
+
 namespace rviz_common
 {
 class Display;
